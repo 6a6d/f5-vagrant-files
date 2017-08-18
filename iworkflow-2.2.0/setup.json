@@ -1,0 +1,4 @@
+{
+    "hostname": "iworkflow1.lab.local",
+    "ntpServerAddresses": ["pool.ntp.org"]
+}
