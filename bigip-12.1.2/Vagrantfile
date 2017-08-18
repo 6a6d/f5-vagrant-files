@@ -58,7 +58,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     end
 
     v.vm.provision "shell", inline: <<-SHELL
-#{WAIT_FOR_BIGIP}
+      #{WAIT_FOR_BIGIP}
 
       tmsh load /sys config default
       sleep 10
